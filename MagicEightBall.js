@@ -33,6 +33,6 @@ switch (randomNumber) {
              }
 
  //Console.log to print: userQuestion; user's name; Magic Ball answer
-console.log (userQuestion);
-console.log (userName);
-console.log (eightBall);
+ console.log ('The user asked: ' + userQuestion);
+ console.log (userName);
+ console.log ('The eight ball answered: ' + eightBall);
