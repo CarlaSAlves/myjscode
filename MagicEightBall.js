@@ -1,8 +1,8 @@
 let userName = '';
 //Ternay Operator who decides what to do if the user enters a name or not.
-userName ? console.log('Hello, ' + userName + '.') : console.log('Hello');
+userName !== '' ? console.log('Hello, ' + userName + '.') : console.log('Hello');
 //the value of a variable should be the question the user wants to ask the Magic Eight Ball.
-userQuestion = 'tomorrow will raining';
+userQuestion = 'tomorrow will rain';
 //create a varaiable randomNumber 
 //Math.random() method - returns a random number between 0 (included) and 1 (excluded)
 //Math.floor() method - rounds the number down to the nearest whole number
