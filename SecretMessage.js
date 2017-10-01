@@ -5,7 +5,7 @@ var last = secretMessage.pop();
 console.log(last);
 //Method to add words 'to' and 'program' as a separeted stings
 secretMessage.push('to' ,'program');
-//change the word 'easily' to 'right'
+//change the word 'easily [6]' to 'right'
 secretMessage [6] = 'right';
 //Method to remove the first sting of the array
 secretMessage.shift();
