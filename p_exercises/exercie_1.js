@@ -12,14 +12,14 @@ const helloName = (name) => {
 Esta função imprime para a consola olá em PT, ES ou EN consoante os 
 argumentos que recebe*/
 
-const multyHello = (name, lenguage) => {
-    if (lenguage === "PT") {
+const multyHello = (name, language) => {
+    if (language === "PT") {
         return ("Olá " + name + "!");
     };
-    if (lenguage === "ES") {
+    if (language === "ES") {
         return ("Hola " + name + "!");
     };
-    if (lenguage === "EN") {
+    if (language === "EN") {
         return ("Hello " + name + "!");
     };
 };
